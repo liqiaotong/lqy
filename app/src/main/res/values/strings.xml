@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Android Demo</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="id">"ID："</string>
+    <string name="name">"商品"</string>
+    <string name="state">"状态"</string>
+    <string name="number">"数量"</string>
+    <string name="price">"单价"</string>
+    <string name="totalprice">"总价"</string>
+    <string name="customer">"客户"</string>
+    <string name="customphone">"联系电话"</string>
+    <string name="look">"查看"</string>
+    <string name="data">"日期"</string>
+
+
+</resources>

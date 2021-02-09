@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="订单查询"
+        android:textSize="30sp"></TextView>
+
+    <EditText
+        android:id="@+id/et_srarch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入检索索引"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bn_sure_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="确定" />
+
+    <Button
+        android:id="@+id/bn_return"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="返回" />
+
+    <LinearLayout
+        android:id="@+id/linersearch"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="none"
+            android:text="ID        商品       数量        单价      总价     顾客    联系方式   日期时间" />
+
+        <ListView
+            android:id="@+id/searchListView"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right" />
+
+        <Button
+            android:id="@+id/return_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="返回" />
+    </LinearLayout>
+</LinearLayout>

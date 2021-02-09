@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background01"
+    android:orientation="vertical"
+    tools:context="com.example.system.oms.activity.RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="迪门迅科技"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="订单管理系统"
+        android:textColor="@color/colorWhite"
+        android:textSize="35sp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="用户登录"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号："
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"></TextView>
+
+
+        <EditText
+            android:id="@+id/et_login_account"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/my_cursor"
+            android:textColor="@color/colorWhite"
+            android:inputType="text"></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码："
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"></TextView>
+
+
+        <EditText
+            android:id="@+id/et_login_password"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/my_cursor"
+            android:textColor="@color/colorWhite"
+            android:inputType="textPassword"
+            ></EditText>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/bt_login_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="登录" />
+
+        <Button
+            android:id="@+id/bt_login_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="注册" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

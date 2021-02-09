@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbarStyle="outsideInset">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="5dip">
+
+        <TextView
+            android:id="@+id/tv_add_id0"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:layout_marginTop="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginBottom="5dip"
+            android:gravity="center_vertical|right"
+            android:text="ID："
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_add_id1"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_alignTop="@id/tv_add_id0"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/tv_add_id0"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="未分配ID"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_add_name"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:layout_below="@id/tv_add_id0"
+            android:layout_alignLeft="@id/tv_add_id0"
+            android:layout_marginRight="5dip"
+            android:layout_marginBottom="5dip"
+            android:gravity="center_vertical|right"
+            android:text="@string/name"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_add_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/tv_add_name"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/tv_add_name"
+            android:paddingLeft="20dip" />
+
+        <TextView
+            android:id="@+id/tv_add_number"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:layout_below="@id/tv_add_name"
+            android:layout_marginRight="5dip"
+            android:layout_marginBottom="5dip"
+            android:gravity="center_vertical|right"
+            android:text="@string/number"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_add_number"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_alignTop="@id/tv_add_number"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/tv_add_number"
+            android:inputType="number"
+            android:paddingLeft="20dip" />
+
+        <TextView
+            android:id="@+id/tv_add_price"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:layout_below="@id/tv_add_number"
+            android:layout_marginRight="5dip"
+            android:layout_marginBottom="5dip"
+            android:gravity="center_vertical|right"
+            android:text="@string/price"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_add_price"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_alignTop="@id/tv_add_price"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/tv_add_price"
+            android:inputType="number"
+            android:paddingLeft="20dip" />
+
+        <TextView
+            android:id="@+id/tv_add_totalprice"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:layout_below="@id/tv_add_price"
+            android:layout_marginRight="5dip"
+            android:layout_marginBottom="5dip"
+            android:gravity="center_vertical|right"
+            android:text="@string/totalprice"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_add_totalprice"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_alignTop="@id/tv_add_totalprice"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/tv_add_totalprice"
+            android:inputType="number"
+            android:paddingLeft="20dip" />
+
+        <TextView
+            android:id="@+id/tv_add_customer"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:layout_below="@id/tv_add_totalprice"
+            android:layout_marginRight="5dip"
+            android:layout_marginBottom="5dip"
+            android:gravity="center_vertical|right"
+            android:text="@string/customer"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_add_customer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/tv_add_customer"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/tv_add_customer"
+            android:paddingLeft="20dip" />
+
+        <TextView
+            android:id="@+id/tv_add_customphone"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:layout_below="@id/tv_add_customer"
+            android:layout_marginRight="5dip"
+            android:layout_marginBottom="5dip"
+            android:gravity="center_vertical|right"
+            android:text="@string/customphone"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_add_customphone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/tv_add_customphone"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/tv_add_customphone"
+            android:inputType="number"
+            android:paddingLeft="20dip" />
+
+
+        <TextView
+            android:id="@+id/tv_add_datatime"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:layout_below="@id/tv_add_customphone"
+            android:layout_alignLeft="@id/tv_add_number"
+            android:layout_marginRight="5dip"
+            android:layout_marginBottom="5dip"
+            android:gravity="center_vertical|right"
+            android:text="@string/data"
+            android:textSize="16sp" />
+
+
+        <EditText
+            android:id="@+id/et_add_datatime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/tv_add_datatime"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/tv_add_datatime"
+            android:focusable="false"
+            android:hint="点击选择日期"
+            android:inputType="date"
+            android:paddingLeft="20dip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_add_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@id/btn_add_save"
+            android:text="重置"></Button>
+
+            <Button
+                android:id="@+id/btn_add_save"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="保存"></Button>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
